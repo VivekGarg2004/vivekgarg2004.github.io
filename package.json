@@ -6,21 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
+    "autoprefixer": "latest",
     "next": "latest",
+    "postcss": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest"
+    "tailwindcss": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "gh-pages": "^6.3.0",
+    "typescript": "latest"
   }
 }
