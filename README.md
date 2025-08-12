@@ -14,15 +14,7 @@ This is a personal portfolio website built with Next.js and styled using Tailwin
 To get a local copy up and running, follow these steps:
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
-   ```
-
 2. **Navigate to the project directory**:
-   ```bash
-   cd portfolio-website
-   ```
-
 3. **Install dependencies**:
    ```bash
    npm install
