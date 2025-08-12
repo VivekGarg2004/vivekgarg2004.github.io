@@ -1,42 +1,36 @@
-# Portfolio Website
-
-This is a personal portfolio website built with Next.js and styled using Tailwind CSS. The website showcases my projects, work experience, and provides a way for visitors to contact me.
-
-## Features
-
-- **Homepage**: A welcoming introduction with links to other sections.
-- **Experience**: A detailed list of my professional experience.
-- **Projects**: A showcase of my projects with descriptions and links.
-- **Contact**: A section for visitors to reach out to me.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-To get a local copy up and running, follow these steps:
+First, run the development server:
 
-1. **Clone the repository**:
-2. **Navigate to the project directory**:
-3. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-4. **Run the development server**:
-   ```bash
-   npm run dev
-   ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-5. **Open your browser** and go to `http://localhost:3000` to see your portfolio in action.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Technologies Used
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- **Next.js**: A React framework for building server-side rendered applications.
-- **TypeScript**: A superset of JavaScript that adds static types.
-- **Tailwind CSS**: A utility-first CSS framework for styling.
+## Learn More
 
-## Contributing
+To learn more about Next.js, take a look at the following resources:
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## License
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
