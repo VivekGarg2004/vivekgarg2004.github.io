@@ -9,3 +9,13 @@ export type Experience = {
   description: string;
   skills: string[];
 };
+
+export type Project = {
+  title: string;
+  summary: string;
+  image: string | StaticImageData;
+  demo?: string;
+  github: string;
+  description: string;
+  skills: string[];
+};

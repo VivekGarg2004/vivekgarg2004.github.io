@@ -59,11 +59,11 @@ export default function HomePage() {
         className="font-bold tracking-tight mb-4"
         variants={itemVariants}
       >
-        Hi! I'm Vivek.
+        Hi! I&apos;m Vivek.
       </motion.h1>
 
       <p className="text-gray-200 max-w-lg text-center mb-6"> {/* Reduced from mb-10 to mb-6 */}
-        I'm a student, developer, problem solver, and technology enthusiast at UCLA,
+        I&apos;m a student, developer, problem solver, and technology enthusiast at UCLA,
         specializing in full-stack development and software engineering.
       </p>
 
